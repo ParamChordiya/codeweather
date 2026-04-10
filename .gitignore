@@ -1,4 +1,7 @@
+# Claude
 .claude/
+
+# Python
 .venv/
 __pycache__/
 *.pyc
@@ -11,3 +14,24 @@ build/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+credentials.yaml
+*_secret*
+*_secrets*
+*apikey*
+*api_key*
+.pypirc
